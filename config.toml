@@ -16,5 +16,4 @@ theme = "Nix"
 	HeaderHostname = "hostname"
 	Email = "johannes@gaertner.audio"
 	About = "Hier Infotext"
-	ProfilePicture = "~/audiopage/Pics/Profil.png"
-	
+	ProfilePicture = "/static/Profil.png"
