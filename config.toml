@@ -1,13 +1,13 @@
 baseURL = "http://gaertner.audio/"
 languageCode = "en-us"
 title = "Johannes Gärtner"
-theme = "Nix"
+theme = "nix"
 
 [menu]
   [[menu.header]]
     name = "About"
     weight = 0
-    url = "/posts"
+    url = "/about"
 
 [params]
 	FacebookID = "johannes.gaertner1991"
@@ -16,4 +16,4 @@ theme = "Nix"
 	HeaderHostname = "hostname"
 	Email = "johannes@gaertner.audio"
 	About = "Hier Infotext"
-	ProfilePicture = "/static/Profil.png"
+	ProfilePicture = "/static/Pics/Profil.png"
