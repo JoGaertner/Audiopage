@@ -25,7 +25,7 @@ theme = "mr.Hugo"
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
         name = "Johannes Gärtner"
-        subtitle = "Tontechniker - Mensch - Lebensform"
+        subtitle = "Site still under Construction"
     
     [params.navigation]
         brand = "Top"
