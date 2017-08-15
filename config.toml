@@ -1,0 +1,19 @@
+baseURL = "http://gaertner.audio/"
+languageCode = "en-us"
+title = "Johannes Gärtner"
+theme = "Nix"
+
+[menu]
+  [[menu.header]]
+    name = "About"
+    weight = 0
+    url = "/posts"
+
+[params]
+	FacebookID = "johannes.gaertner1991"
+	Name = "Johannes Gärtner"
+	HeaderUsername = "username"
+	HeaderHostname = "hostname"
+	Email = "johannes@gaertner.audio"
+	About = "Hier Infotext"
+	ProfilePicture = "~/audiopage/Pics/Profil.png"
