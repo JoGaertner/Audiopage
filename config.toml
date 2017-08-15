@@ -1,19 +1,69 @@
 baseURL = "http://gaertner.audio/"
 languageCode = "en-us"
 title = "Johannes Gärtner"
-theme = "nix"
-
-[menu]
-  [[menu.header]]
-    name = "About"
-    weight = 0
-    url = "/about"
+theme = "mr.Hugo"
 
 [params]
-	FacebookID = "johannes.gaertner1991"
-	Name = "Johannes Gärtner"
-	HeaderUsername = "username"
-	HeaderHostname = "hostname"
-	Email = "johannes@gaertner.audio"
-	About = "Hier Infotext"
-	ProfilePicture = "/static/Pics/Profil.png"
+	# Metadaten Suchmaschinen
+	#name = Johannes Gärtner
+	#description = Tontechniker Berlin
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email youself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #email = "your@email.com"
+
+	[params.header]
+        # Copy your own image into './static/img/'' if you wish
+        image = "profile.png"
+        name = "Johannes Gärtner"
+        subtitle = "Tontechniker - Mensch - Lebensform"
+    
+    [params.navigation]
+        brand = "Brand"
+    
+    [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Portfolio"
+
+        [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttontext = "Close"
+	
+	[params.footer]
+        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
+
+        [params.footer.location]
+            title = "Location"
+            # Postal address (add as many lines as necessary)
+            address = ["10409 Berlin, Storkower Straße 13"]
+
+        [params.footer.social]
+            title = "Around the web"
+            # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+            # for more icons. The icons are represented by their corresponding
+            # CSS class.
+            [[params.footer.social.networks]]
+                icon = "fa-github"
+                link = "//github.com/spf13/hugo"
+
+            [[params.footer.social.networks]]
+                icon = "fa-stack-overflow"
+                link=  "//stackoverflow.com/questions/tagged/hugo"
+
+            [params.footer.credits]
+            title = "About Freelancer"
+            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
