@@ -7,7 +7,7 @@ theme = "nix"
   [[menu.header]]
     name = "About"
     weight = 0
-    url = "/posts"
+    url = "/about"
 
 [params]
 	FacebookID = "johannes.gaertner1991"
