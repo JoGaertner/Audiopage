@@ -291,7 +291,7 @@ section.success a.active {
 .btn-outline.active {
     /*Buttons Social Hover*/
     border: solid 2px #fff;
-    color: #000;
+    color: #18bc9c;
     background: #fff;
 }
 
@@ -300,6 +300,27 @@ section.success a.active {
     margin-bottom: 0;
     padding-bottom: .5em;
     border-bottom: 1px solid #0f0f0f;
+    background-color: #3b637b;
+}
+
+/*Button Abschicken*/
+.btn-success {
+    color:#ffffff;
+    background-color:#18bc9c;
+    border-color:#18bc9c
+}
+
+/*Button Abschicken Hover*/
+.btn-success:hover,
+.btn-success:focus,
+.btn-success.focus,
+.btn-success:active,
+.btn-success.active,
+.open>
+.dropdown-toggle.btn-success {
+    color:#ffffff;
+    background-color:#128f76;
+    border-color:#11866f
 }
 
 .floating-label-form-group input,
@@ -478,3 +499,5 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+
