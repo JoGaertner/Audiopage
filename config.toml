@@ -33,8 +33,8 @@ theme = "mr.Hugo"
     [params.about]
         title = "Andere Überschrift"
         # The about text is splitted into a left and right column
-        left = "Text über mich"
-        right = "Text über meine Expertise."
+        left = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec orci lectus. Mauris suscipit nibh eu nulla tempus facilisis. Nulla facilisi. Nulla facilisi. Aenean condimentum ultrices iaculis. Cras id elementum nunc. Ut blandit consectetur nisi et mattis. In egestas tortor ut vehicula euismod. Aenean mollis dapibus nibh, sit amet dictum ex pellentesque sed. Nulla id turpis varius, porttitor elit et, luctus lacus. Aenean non fermentum magna. Donec pretium sollicitudin est. Pellentesque malesuada, ligula pretium accumsan laoreet, odio tortor faucibus felis, quis sollicitudin sapien mi vitae magna. Duis et cursus erat, vel aliquam lorem. Praesent lacinia nunc ac hendrerit cursus."
+        right = "Fusce eleifend massa eu tortor molestie laoreet. Aliquam pretium accumsan urna, eget accumsan ex placerat ut. Suspendisse aliquam molestie enim ut aliquam. Mauris venenatis ultricies vestibulum. Etiam vel enim neque. Quisque ac molestie massa. Aliquam feugiat diam mauris, sit amet aliquam ligula tempor eu. Duis cursus euismod dui, vel ornare magna aliquam ut. Ut malesuada tortor tellus, et gravida mi sagittis vitae. In a efficitur sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut id lacus non nulla consectetur eleifend non id magna. Ut egestas fermentum pellentesque. Phasellus feugiat tristique est eget cursus."
 
         [params.about.button] #Auskommentiert im HTML
             text = "Download theme"
@@ -42,14 +42,14 @@ theme = "mr.Hugo"
             icon = "download"
 
      [params.portfolio]
-        # All projects defined in their own files. You can find example projects
+         # All projects defined in their own files. You can find example projects
         # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
         # at the root of this Hugo site.
         # For more informtion take a look at the README.
         title = "Überschrift"
 
         [params.portfolio.modal]
-            buttontext = "Zurück"
+            buttontext = "Close"
 	
 	[params.contact]
         title = "Kontakt"
