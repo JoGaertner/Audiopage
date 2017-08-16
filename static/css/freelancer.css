@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    /*Hintergrund Projekte Contact*/
+    /*Hintergrund Body*/
     background-color: #c2c2c2;
 }
 
@@ -194,7 +194,7 @@ section h2 {
 section.success {
     /*Farbe About*/
     color: #000;
-    background: #55696F;
+    /*background: #c2c2c2;*/
 }
 
 section.success a,
@@ -217,7 +217,7 @@ section.success a.active {
 }
 
 #portfolio .portfolio-item {
-    /*Hintergrund Projektbilder*/
+    /*Hintergrund Infobilder*/
     right: 0;
     margin: 0 0 15px;
 }
@@ -263,6 +263,10 @@ section.success a.active {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
+}
+
+#portfolio {
+    background-color: #55696F;
 }
 
 #portfolio * {
