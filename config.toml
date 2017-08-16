@@ -25,23 +25,10 @@ theme = "mr.Hugo"
         # Copy your own image into './static/img/'' if you wish
         image = "profile.png"
         name = "Johannes Gärtner"
-        subtitle = "Site still under Construction"
+        subtitle = "Tontechniker - Boom Operator - Set Assistant - Stagehand - B.o.A. Audio Production"
     
     [params.navigation]
         brand = "Top"
-    
-    [params.portfolio]
-        # All projects defined in their own files. You can find example projects
-        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
-        # at the root of this Hugo site.
-        # For more informtion take a look at the README.
-        title = "Projekte"
-
-        [params.portfolio.modal]
-            client = "Client"
-            date = "Date"
-            category = "Category"
-            buttontext = "Close"
 
     [params.about]
         title = "About"
@@ -53,6 +40,19 @@ theme = "mr.Hugo"
             text = "Download theme"
             link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
             icon = "download"
+
+     [params.portfolio]
+        # All projects defined in their own files. You can find example projects
+        # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+        # at the root of this Hugo site.
+        # For more informtion take a look at the README.
+        title = "Projekte"
+
+        [params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttontext = "Close"
 	
 	[params.contact]
         title = "Contact"
@@ -103,4 +103,4 @@ theme = "mr.Hugo"
 
             [params.footer.credits]
             title = "About Freelancer"
-            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com)."
+            text = "Freelance is a free to use, open source Bootstrap theme created by [Start Bootstrap](//startbootstrap.com). Icons designed by [Prosymbols](https://www.flaticon.com/authors/prosymbols) from [Flaticon](https://www.flaticon.com)"
