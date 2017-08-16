@@ -19,7 +19,7 @@ theme = "mr.Hugo"
     # - send a dummy email youself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    #email = "your@email.com"
+    #email = "johannes@gaertner.audio"
 
 	[params.header]
         # Copy your own image into './static/img/'' if you wish
